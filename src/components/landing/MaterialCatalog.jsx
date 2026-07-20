@@ -7,7 +7,7 @@ const MATERIALS = [
     symbol: 'Si',
     name: 'Polycrystalline Silicon',
     sku: 'CE-SI-6N',
-    image: 'https://media.base44.com/images/public/6a0b30bc5dcc4c69afbe95be/3006b8b9b_generated_113af77a.png',
+    image: '/assets/materials/silicon.png',
     category: 'semiconductor',
     specs: [
       { label: 'CONDUCTIVITY', value: '1.56×10⁻³ S/m' },
@@ -20,7 +20,7 @@ const MATERIALS = [
     symbol: 'Cu',
     name: 'Electrolytic Copper',
     sku: 'CE-CU-4N',
-    image: 'https://media.base44.com/images/public/6a0b30bc5dcc4c69afbe95be/943872689_generated_599aa3b6.png',
+    image: '/assets/materials/copper.png',
     category: 'conductor',
     specs: [
       { label: 'CONDUCTIVITY', value: '5.96×10⁷ S/m' },
@@ -33,7 +33,7 @@ const MATERIALS = [
     symbol: 'C',
     name: 'Graphene Nanoplatelets',
     sku: 'CE-GR-NP',
-    image: 'https://media.base44.com/images/public/6a0b30bc5dcc4c69afbe95be/0fd0e4fb1_generated_27b0fb07.png',
+    image: '/assets/materials/graphene.png',
     category: 'advanced',
     specs: [
       { label: 'CONDUCTIVITY', value: '10⁸ S/m' },
@@ -46,7 +46,7 @@ const MATERIALS = [
     symbol: 'Nd',
     name: 'Neodymium Ingot',
     sku: 'CE-ND-3N',
-    image: 'https://media.base44.com/images/public/6a0b30bc5dcc4c69afbe95be/b14cdf7af_generated_f676a9de.png',
+    image: '/assets/materials/neodymium.png',
     category: 'rare-earth',
     specs: [
       { label: 'CONDUCTIVITY', value: '1.57×10⁶ S/m' },
@@ -59,7 +59,7 @@ const MATERIALS = [
     symbol: 'GaAs',
     name: 'Gallium Arsenide',
     sku: 'CE-GA-5N',
-    image: 'https://media.base44.com/images/public/6a0b30bc5dcc4c69afbe95be/318341bad_generated_35939550.png',
+    image: '/assets/materials/gallium-arsenide.png',
     category: 'semiconductor',
     specs: [
       { label: 'BAND GAP', value: '1.42 eV' },

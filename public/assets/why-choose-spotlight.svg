@@ -1,0 +1,28 @@
+<svg width="100%" viewBox="0 0 690 410" xmlns="http://www.w3.org/2000/svg" role="img" style="">
+<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Photographic spotlight artwork in grey and teal</title>
+<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Simple photo-style image with soft lens blur and an intense teal spotlight glow on a dark grey background</desc>
+<defs>
+<radialGradient id="spot" cx="50%" cy="42%" r="55%">
+<stop offset="0%" stop-color="#39E0CF" stop-opacity="1"/>
+<stop offset="35%" stop-color="#0E7C72" stop-opacity="0.9"/>
+<stop offset="70%" stop-color="#2A3230" stop-opacity="0.4"/>
+<stop offset="100%" stop-color="#1A1E1D" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="bg" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="#3A403F"/>
+<stop offset="100%" stop-color="#161918"/>
+</radialGradient>
+<filter id="blurSoft" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="18"/>
+</filter>
+<filter id="blurStrong" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="35"/>
+</filter>
+</defs>
+<rect x="0" y="0" width="680" height="400" fill="url(#bg)" style="stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="340" cy="168" r="220" fill="url(#spot)" filter="url(#blurStrong)" style="stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="340" cy="168" r="90" fill="#5CF2E0" opacity="0.55" filter="url(#blurSoft)" style="fill:rgb(92, 242, 224);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="150" cy="330" r="26" fill="#0E7C72" opacity="0.3" filter="url(#blurSoft)" style="fill:rgb(14, 124, 114);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="560" cy="320" r="18" fill="#B9C0BE" opacity="0.25" filter="url(#blurSoft)" style="fill:rgb(185, 192, 190);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="500" cy="90" r="10" fill="#7FE8DA" opacity="0.3" filter="url(#blurSoft)" style="fill:rgb(127, 232, 218);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const HERO_VIDEO = 'https://media.base44.com/videos/public/6a55f22614a1269584326b84/81c40a9d2_Untitleddesign.mp4';
+const HERO_VIDEO = '/assets/hero-video.mp4';
 
 export default function HeroSection() {
   return (

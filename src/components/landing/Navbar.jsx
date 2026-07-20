@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between px-6 md:px-12 py-6">
         <a href="#">
           <img
-            src="https://media.base44.com/images/public/6a0b30bc5dcc4c69afbe95be/016cdd761_colidasvgpowerpoint.svg"
+            src="/assets/logo.svg"
             alt="Company Logo"
             className="h-11 w-auto"
           />

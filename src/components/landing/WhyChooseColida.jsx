@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const WHY_IMAGE = 'https://media.base44.com/images/public/6a55f22614a1269584326b84/011f73236_grey_teal_spotlight_photo.svg';
+const WHY_IMAGE = '/assets/why-choose-spotlight.svg';
 
 const REASONS = [
   {
