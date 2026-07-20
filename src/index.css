@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&family=Inter:wght@300;400;500&family=Fira+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-mono: 'Exo 2', sans-serif;
+    --font-sans: 'Exo 2', 'Inter', sans-serif;
+    --font-display: 'Fira Sans', 'Trebuchet MS', sans-serif;
+
+    --background: 220 16% 96%;
+    --foreground: 222 22% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 22% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 22% 11%;
+    --primary: 173 55% 36%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 90%;
+    --secondary-foreground: 222 22% 11%;
+    --muted: 220 14% 92%;
+    --muted-foreground: 222 12% 40%;
+    --accent: 173 55% 36%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 12% 84%;
+    --input: 220 12% 84%;
+    --ring: 173 55% 36%;
+    --chart-1: 173 55% 36%;
+    --chart-2: 200 60% 42%;
+    --chart-3: 160 50% 38%;
+    --chart-4: 280 60% 48%;
+    --chart-5: 20 80% 48%;
+    --radius: 0.25rem;
+
+    --sidebar-background: 220 16% 96%;
+    --sidebar-foreground: 222 22% 11%;
+    --sidebar-primary: 173 55% 36%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 92%;
+    --sidebar-accent-foreground: 222 22% 11%;
+    --sidebar-border: 220 12% 84%;
+    --sidebar-ring: 173 55% 36%;
+  }
+
+  .dark {
+    --background: 220 16% 96%;
+    --foreground: 222 22% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 22% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 22% 11%;
+    --primary: 173 55% 36%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 90%;
+    --secondary-foreground: 222 22% 11%;
+    --muted: 220 14% 92%;
+    --muted-foreground: 222 12% 40%;
+    --accent: 173 55% 36%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 12% 84%;
+    --input: 220 12% 84%;
+    --ring: 173 55% 36%;
+    --chart-1: 173 55% 36%;
+    --chart-2: 200 60% 42%;
+    --chart-3: 160 50% 38%;
+    --chart-4: 280 60% 48%;
+    --chart-5: 20 80% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(220 14% 92%);
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(220 10% 68%);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(173 55% 36%);
+}
+
+/* Circuit trace animation */
+@keyframes pulse-trace {
+  0% { opacity: 0.1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 0.1; }
+}
+
+@keyframes flow-right {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100vw); }
+}
+
+@keyframes flow-down {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+.trace-pulse {
+  animation: pulse-trace 3s ease-in-out infinite;
+}
+
+.trace-flow-h {
+  animation: flow-right 8s linear infinite;
+}
+
+.trace-flow-v {
+  animation: flow-down 8s linear infinite;
+}
