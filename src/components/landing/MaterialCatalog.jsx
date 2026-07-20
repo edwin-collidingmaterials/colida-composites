@@ -7,7 +7,7 @@ const MATERIALS = [
     symbol: 'Si',
     name: 'Polycrystalline Silicon',
     sku: 'CE-SI-6N',
-    image: '/assets/materials/silicon.png',
+    image: '/assets/silicon.png',
     category: 'semiconductor',
     specs: [
       { label: 'CONDUCTIVITY', value: '1.56×10⁻³ S/m' },
@@ -20,7 +20,7 @@ const MATERIALS = [
     symbol: 'Cu',
     name: 'Electrolytic Copper',
     sku: 'CE-CU-4N',
-    image: '/assets/materials/copper.png',
+    image: '/assets/copper.png',
     category: 'conductor',
     specs: [
       { label: 'CONDUCTIVITY', value: '5.96×10⁷ S/m' },
@@ -33,7 +33,7 @@ const MATERIALS = [
     symbol: 'C',
     name: 'Graphene Nanoplatelets',
     sku: 'CE-GR-NP',
-    image: '/assets/materials/graphene.png',
+    image: '/assets/graphene.png',
     category: 'advanced',
     specs: [
       { label: 'CONDUCTIVITY', value: '10⁸ S/m' },
@@ -46,7 +46,7 @@ const MATERIALS = [
     symbol: 'Nd',
     name: 'Neodymium Ingot',
     sku: 'CE-ND-3N',
-    image: '/assets/materials/neodymium.png',
+    image: '/assets/neodymium.png',
     category: 'rare-earth',
     specs: [
       { label: 'CONDUCTIVITY', value: '1.57×10⁶ S/m' },
@@ -59,7 +59,7 @@ const MATERIALS = [
     symbol: 'GaAs',
     name: 'Gallium Arsenide',
     sku: 'CE-GA-5N',
-    image: '/assets/materials/gallium-arsenide.png',
+    image: '/assets/gallium-arsenide.png',
     category: 'semiconductor',
     specs: [
       { label: 'BAND GAP', value: '1.42 eV' },
